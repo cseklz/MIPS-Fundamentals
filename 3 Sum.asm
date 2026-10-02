@@ -1,6 +1,6 @@
 main:
-	li 	 $t0, 0 			# sum
-	li 	 $t1, 2 			# increment
+	li 	 $t0, 0 		# sum
+	li 	 $t1, 2 		# increment
 	
 	j    start
 
@@ -12,7 +12,7 @@ start:
 	syscall
 	
 	la   $a0, '\n'
-	li   $v0, 11		 	# newline
+	li   $v0, 11		# newline
 	syscall
 	
 	move $a0, $t0
