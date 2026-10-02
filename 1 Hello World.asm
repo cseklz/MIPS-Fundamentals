@@ -1,6 +1,6 @@
 main:
-	li $v0, 4
-	la $a0, greeting
+	li    $v0, 4
+	la    $a0, greeting
 	syscall
 
 .data
